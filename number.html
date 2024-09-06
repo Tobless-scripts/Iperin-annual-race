@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Human Age to Dog Age</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width= device-width, initial-scale = 1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+          <header id = "header">
+            <a href="./index.html" class="back">Back</a>
+          </header>
+          <h1 class="tag"> This will generate race number for registrants</h1> <br> <br>
+          <input type="text" placeholder="Input Your Name" id="userName" required="input your name"> <br><br>
+          <input type="number" placeholder="Input your Age" id="myAge" required> <br><br>
+          <input type="radio" name="gender" value="male" id="gender">
+          <label for="gender" class="gender1">Male</label>
+          <input type="radio" name="gender" value="female" id="gender">
+          <label for="gender" class="gender">Female</label>  <br><br>
+          <button onclick="generateNumber()" >Generate Race Number</button>
+        <p id="dogAge"></p>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
